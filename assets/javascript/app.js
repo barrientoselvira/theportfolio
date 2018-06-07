@@ -1,10 +1,29 @@
 $(document).ready(function(){
+
+        // Check if element is scrolled into view
+        function isScrolledIntoView(elem) {
+            var docViewTop = $(window).scrollTop();
+            var docViewBottom = docViewTop + $(window).height();
+            
+            var elemTop = $(elem).offset().top;
+            var elemBottom = elemTop + $(elem).height();
+            
+            return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+            }
+            // If element is scrolled into view, fade it in
+            window.sr = ScrollReveal();
+            sr.reveal('.title');
+            sr.reveal('#intro');
+            sr.reveal('.abouttitle-liveshere');
+        
+        
+            });
     
 
     // Smooth scrolling for nav links
-    $(".container-about").click(function() {
+    $(".about-click").click(function() {
       $("html, body").animate({
-          scrollTop: $("#about").offset().top
+          scrollTop: $(".container-about").offset().top
       }, 800);
   })
 
@@ -13,9 +32,9 @@ $(document).ready(function(){
           scrollTop: $("#projects").offset().top
       }, 800);
   })
-  $(".container-contact").click(function() {
+  $(".contacts-click").click(function() {
       $("html, body").animate({
-          scrollTop: $("#contact").offset().top
+          scrollTop: $(".container-contact").offset().top
       }, 800);
   })
 
@@ -28,4 +47,3 @@ $(document).ready(function(){
 
     
     
-});
