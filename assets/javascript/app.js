@@ -12,6 +12,7 @@ $(document).ready(function(){
             }
             // If element is scrolled into view, fade it in
             window.sr = ScrollReveal();
+            // sr.reveal('.navbar')
             sr.reveal('.title');
             sr.reveal('#intro');
             sr.reveal('.abouttitle-liveshere');
