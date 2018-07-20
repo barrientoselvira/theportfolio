@@ -106,7 +106,6 @@ a:hover {
 }
 
 .projects-title{
-    margin-left: 35% !important;
     margin: 10%;
     font-size: 40px;
     font-weight: 700;
@@ -118,8 +117,8 @@ a:hover {
     align-items: center;
     align-content: center;
     margin-top: -5%;
-    margin-left: 25%;
-    margin-right: 25%;
+    margin-left: 10%;
+    margin-right: 20%;
 }
 
 
@@ -237,17 +236,14 @@ a:hover {
             font-size: 20px;
         }
 
-        .container-about{
-            background-color: #5827EB; 
-        }
-        
 
         #about-title{
+            margin-top: 35% !important;
             font-weight: 900;
             margin-left: 7%;
             margin-right: 5%;
             color: #5827EB;
-            font-size: 30px;
+            font-size: 42px;
             font-family: 'Cabin', sans-serif;
             /* padding: 10%; */
         }
@@ -259,11 +255,8 @@ a:hover {
          }
 
          #about-me {
-            margin-left: -5%;
-            font-size: 20px;
-            width: 100%;
-            text-align: center;
-            font-weight: 200;
+            font-weight: 400;
+            font-size: 18px;
             font-family: 'Maven Pro', sans-serif;
         
         }
@@ -291,12 +284,16 @@ a:hover {
             height: 300px;  
         }
 
+        .footer {
+            margin-top: 140% !important;
+        }
+
     }
 
     @media all and (min-width: 480px) and (max-width: 768px) {
 
         .container-social{
-            height: 300px;  
+            height: 200px;  
         }
 
         .title {
@@ -311,26 +308,23 @@ a:hover {
         }
 
         #about-title{
+            margin-left: 6% !important;
             font-weight: 900;
-            margin-left: 7%;
-            margin-right: 5%;
             color: #5827EB;
-            font-size: 35px;
+            font-size: 42px;
             font-family: 'Cabin', sans-serif;
             padding: 10%;
         }
 
         .abouttitle-liveshere {
             background-color: white; 
-            width: 90%;
+            width: 100%;
             height: 370px;
          }
 
         #about-me {
-            margin-left: -5%;
             font-size: 20px;
             width: 100%;
-            text-align: center;
             font-weight: 200;
             font-family: 'Maven Pro', sans-serif;
         
@@ -357,6 +351,15 @@ a:hover {
             margin-top: 400px !important;
           }
 
+          .projects-title{
+            margin-left: 10% !important;
+        }
+        
+           #project-nda {
+            margin-left: 10% !important;
+            
+        }
+
      }
 
 
@@ -367,7 +370,7 @@ a:hover {
         .title {
             margin-top: 100px;
             color: white;
-            font-size: 82px;
+            font-size: 80px;
             padding: 7%;
             font-family: 'Cabin', sans-serif;
             font-weight: 900;
@@ -380,9 +383,14 @@ a:hover {
             margin-left: 7%;
             margin-right: 5%;
             color: #5827EB;
-            font-size: 52px;
+            font-size: 42px;
             font-family: 'Cabin', sans-serif;
             padding: 10%;
+        }
+
+        #about-me{
+            font-size: 18px;
+            font-weight: 400;
         }
 
         .abouttitle-liveshere {
