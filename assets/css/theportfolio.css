@@ -1,14 +1,13 @@
 html,body {
     margin:0;
     padding:0;
-
-    background-color: #5827EB;
+    background-color:white;
 }
 
 .navbar {
     padding: 2%;
     color: white;
-   background-color: #5827EB; 
+    background-color: #5827EB; 
    /* background-color: black;  */
     font-size: 14px;
     height: 60px;
@@ -39,13 +38,13 @@ a:hover {
 /* Header */
 
 .header-container{
-     background-color: #5827EB;  
+    background-color: #5827EB;  
     /* background-color: black; */
-    height: 850px;
+    height: 700px;
 }
 
 .title {
-    margin-top: 10px;
+    margin-top: 7px;
     color: white;
     font-size: 82px;
     padding: 7%;
@@ -68,7 +67,7 @@ a:hover {
 
 .container-about{
     margin-top: -40px;
-    background-color: #5827EB; 
+    background-color: white; 
 }
 
 #about-title{
@@ -89,8 +88,8 @@ a:hover {
 
 #about-me {
     margin-top: 40px;
-    font-size: 22px;
-    font-weight: 200;
+    font-size: 24px;
+    font-weight: 300;
     font-family: 'Maven Pro', sans-serif;
 }
 
@@ -107,10 +106,20 @@ a:hover {
 }
 
 .projects-title{
+    margin-left: 35% !important;
     margin: 10%;
-    font-weight: 200;
+    font-size: 40px;
+    font-weight: 700;
     font-family: 'Maven Pro', sans-serif;
-    color: white;
+    color: #F81919;
+}
+
+#project-nda {
+    align-items: center;
+    align-content: center;
+    margin-top: -5%;
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 
@@ -129,15 +138,16 @@ a:hover {
 
 /* Social Media */
  #link {
-    margin: 5%;
+     /* margin-left: 30%; */
+    /* margin: 10%; */
     font-family: 'Oxygen', sans-serif;
-    color: #F81919 !important;
-    font-size: 18px;
+    color: #5827EB !important;
+    font-size: 14px;
   } 
   
   .container-social {
-    /* background-color: #F81919; */
-    width: 100%;
+    margin-bottom: 15% !important;
+    width: 50%;
     margin: 10px;
     margin-top: 150px;
     height: 200px;
@@ -146,51 +156,70 @@ a:hover {
 
   h3 {
       margin: 2%;
-      display: inline;
-      font-size: 14px;
+      /* display: inline; */
   } 
+
+  .find-internet {
+    color: #2E282C;
+    font-size: 32px;
+  }
+
+  #want{
+      margin-top: -30%;
+      float: right;
+      width: 45%;
+      margin-left: 10%;
+      margin-right: 5%;
+  }
+
+  #iLook {
+    color: #2E282C;
+    font-size: 42px; 
+  }
+
+  #both {
+    margin: 10%;
+    font-size: 16px;
+    font-family: 'Oxygen', sans-serif;
+    color: #373136;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 
   /* Contact */
 
   .btn-contact{
     border-radius: 0;
-    height: 50px;
-    width: 120px;
+    height: 30px;
+    width: 100px;
     left: 50%;
-    color: white;
+    background-color: #2E282C;
   } 
 
    .btn-contact:hover{
-      background-color: #F81919;
+      background-color: white;
+     color: black;
   } 
   
   .container-contact {
-    font-size: 40px;
-    margin: 5%;
-    padding: 15px; 
-    color: #202DFC;
-    height: 500px;
     width: 100%; 
     font-family: 'Maven Pro', sans-serif;
    } 
 
- h2 {
-    margin-left: 15%;
-    font-family: 'Maven Pro', sans-serif;
-    padding: 5%;
-    color: white;
-  } 
 
   
 
     /* Footer */
-  .footer{
-        width: 100%;
+  .footer {
+    margin-top: 10% !important;
+    border-top: #5827EB 1px dotted;
+    width: 100%;
     }
 
-    .m-0{
-        color: white;
-        font-size: 10px;
+    .m-0 {
+    margin-top: 55px !important;
+    color: #202DFC;
+    font-size: 10px;
     } 
 
 
@@ -323,6 +352,10 @@ a:hover {
             padding: 5%;
             color: white;
           }
+          
+          .footer {
+            margin-top: 400px !important;
+          }
 
      }
 
@@ -389,9 +422,11 @@ a:hover {
             height: 350px;
         }
 
-     }
+        .footer {
+            margin-top: 40% !important;
+        }
 
-
+    }
 
     @media all and (min-width: 1024px) and (max-width: 1580px) { 
         .header-container{
