@@ -30,12 +30,12 @@ $(document).ready(function(){
 
   $(".projects-click").click(function() {
       $("html, body").animate({
-          scrollTop: $("#projects").offset().top
+          scrollTop: $(".projects-container").offset().top
       }, 800);
   })
   $(".contacts-click").click(function() {
       $("html, body").animate({
-          scrollTop: $(".container-contact").offset().top
+          scrollTop: $(".container-social").offset().top
       }, 800);
   })
 
